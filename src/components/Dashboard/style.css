@@ -1,0 +1,33 @@
+.dashboard-centralize{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 500px;
+}
+
+.dashboard-form{
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.submit-button{
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.yup-notification{
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+h1{
+    font-size: 20px;
+    color:rgb(88,88,88);
+    font-family: 'Inter', sans-serif;
+}
