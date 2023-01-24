@@ -6,8 +6,7 @@ import './style.css'
 import '../../services/api'
 import Api from "../../services/api";
 
-
-interface ISubmitForm{
+export interface ISubmitForm{
     amount?: number;
     installments?: number;
     mdr?: number;
